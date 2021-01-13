@@ -1,0 +1,109 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+html {
+   scroll-behavior: smooth;
+}
+body {
+   font-family: 'Roboto', sans-serif;
+   font-size: 16px;
+   color: #3E3E3E;
+}
+
+h1 {
+   font-size: 80px;
+   font-family: 'Bebas Neue', cursive;
+   color: #363958;
+}
+h2 {
+   font-size: 48px;
+   font-family: 'Bebas Neue', cursive;
+   color: #363958;
+}
+h3 {
+   font-size: 36px;
+   font-weight: bold;
+   color: #363958;
+}
+h4 {
+   font-size: 24px;
+   font-weight: bold;
+   color: #363958;
+}
+.text-yellow {
+   color: #FABE4C;
+}
+.btn-green {
+   background: linear-gradient(90deg, #a4bc46 0%,#85a019 100% );
+   color: #fff;
+   padding: 18px 36px;
+   border-radius: 10px;
+}
+
+.navbar-brand img {
+   width: 291px;
+}
+
+#homeSection {
+   background: #FFFBF0;
+   padding: 75px 0;
+}
+
+#womanJacketSection .card,
+#manJacketSection .card {
+   background: #fff;
+   border: none;
+   padding: 20px;
+   border-radius: 20px;
+}
+
+#womanJacketSection .card-footer,
+#manJacketSection .card-footer {
+   background: #fff;
+   border: none;
+   display: flex;
+   align-items: center;
+}
+#womanJacketSection .card .img-box,
+#manJacketSection .card .img-box {
+   background: #f1f1f1;
+   border-radius: 20px;
+}
+#womanJacketSection .card .img-box img,
+#manJacketSection .card .img-box img {
+   height: 327px;
+}
+#womanJacketSection .card-footer .btn-green,
+#manJacketSection .card-footer .btn-green {
+   padding: 14px 14px;
+   margin-left: auto;
+}
+
+#serviceSection .service-box {
+   border-radius: 20px;
+   padding: 20px;
+}
+#serviceSection .service-box img {
+   width: 78px;
+   margin-right: 20px;
+}
+
+
+#contactSection .contact-box {
+   padding: 20px;
+   border-radius: 20px;
+}
+#contactSection .contact-box input {
+   height: 55px;
+   padding: 20px;
+   border-radius: 30px;
+}
+#contactSection .contact-box textarea {
+   border-radius: 20px;
+   padding: 20px;
+}
+#contactSection .contact-box .btn-green {
+   border-radius: 30px;
+}
